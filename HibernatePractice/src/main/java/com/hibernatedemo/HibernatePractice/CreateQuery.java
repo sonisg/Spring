@@ -20,7 +20,7 @@ public class CreateQuery {
             List<Student> students = session.createQuery("from Student").getResultList();
 
             //display
-//            System.out.println("The Students");
+//            System.out.println("The Students");;
 //            displayStudents(students);
 //
 //            students = session.createQuery("from Student s where s.lastName ='gupta'").getResultList();
